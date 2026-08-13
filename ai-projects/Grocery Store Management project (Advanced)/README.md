@@ -346,7 +346,7 @@ CREATE TABLE bill_items (
 
 ## How to Run
 
-### Simple Version (`exercise.py`)
+### Simple Version ~(`exercise.py`)~ (Removed)
 
 **Requirements:**
 - Python 3.6+
@@ -665,7 +665,7 @@ class MultiStoreSystem:
 
 This project demonstrates two levels of complexity:
 
-1. **Simple Version** (`exercise.py`):
+1. **Simple Version** ~(`exercise.py`)~ (Removed):
    - Good for learning basic Python concepts
    - Hardcoded data, simple algorithms
    - Suitable for educational purposes
