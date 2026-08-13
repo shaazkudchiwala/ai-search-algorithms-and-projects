@@ -40,7 +40,7 @@ Grocery Store Management project (Advanced)/
 
 ## Implementation Versions
 
-### ~1. Simple Implementation (`exercise.py`)~ (Removed)
+### 1. Simple Implementation ~(`exercise.py`)~ (Removed)
 
 A basic, easy-to-understand billing system ideal for learning the fundamentals.
 
@@ -135,7 +135,9 @@ Total cost: $16.95
 - Limited error handling
 - Single-use (no multi-customer support)
 
-### 2. Advanced Implementation (`src/grocery_intermediate.py`)
+---
+
+## 2. Advanced Implementation (`src/grocery_intermediate.py`)
 
 A production-ready system with professional features for real-world grocery store operations.
 
