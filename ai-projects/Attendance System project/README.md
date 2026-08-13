@@ -24,7 +24,6 @@ An automated attendance tracking and management system for academic courses. The
 
 ```
 Attendance System project/
-├── exercise.py              # Complete, working implementation
 ├── src/
 │   ├── main.py             # Interactive system framework (partial)
 │   └── courses.json        # Course data and session counts
