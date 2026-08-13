@@ -1,0 +1,64 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "Rice",
+            "price": 50
+        },
+        {
+            "id": 2,
+            "name": "Wheat Flour",
+            "price": 40
+        },
+        {
+            "id": 3,
+            "name": "Sugar",
+            "price": 45
+        },
+        {
+            "id": 4,
+            "name": "Milk",
+            "price": 25
+        },
+        {
+            "id": 5,
+            "name": "Eggs",
+            "price": 6
+        },
+        {
+            "id": 6,
+            "name": "Bread",
+            "price": 30
+        },
+        {
+            "id": 7,
+            "name": "Butter",
+            "price": 60
+        },
+        {
+            "id": 8,
+            "name": "Cheese",
+            "price": 80
+        },
+        {
+            "id": 9,
+            "name": "Apples",
+            "price": 120
+        },
+        {
+            "id": 10,
+            "name": "Bananas",
+            "price": 40
+        },
+        {
+            "id": 11,
+            "name": "Tomatoes",
+            "price": 35
+        },
+        {
+            "id": 12,
+            "name": "Onions",
+            "price": 30
+        }
+    ]
+}

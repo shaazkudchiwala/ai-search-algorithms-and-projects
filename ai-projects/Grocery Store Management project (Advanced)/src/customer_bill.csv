@@ -1,0 +1,6 @@
+Item, Quantity, Price (Rs.),Cost (Rs.)
+Cheese,1,80,80
+
+Discount,- Rs. 4.00
+GST,+ Rs. 0.76
+Grand Total,Rs. 76.76

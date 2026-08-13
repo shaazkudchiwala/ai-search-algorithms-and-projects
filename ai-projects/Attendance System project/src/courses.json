@@ -1,0 +1,29 @@
+{
+    "courses": [
+        {
+            "course_id": 1,
+            "course_name": "Robotics",
+            "total_sessions": 12
+        },
+        {
+            "course_id": 2,
+            "course_name": "AI",
+            "total_sessions": 6
+        },
+        {
+            "course_id": 3,
+            "course_name": "A&D Electronics",
+            "total_sessions": 12
+        },
+        {
+            "course_id": 4,
+            "course_name": "BMFA",
+            "total_sessions": 12
+        },
+        {
+            "course_id": 5,
+            "course_name": "Machine Drawing",
+            "total_sessions": 24
+        }
+    ]
+}
