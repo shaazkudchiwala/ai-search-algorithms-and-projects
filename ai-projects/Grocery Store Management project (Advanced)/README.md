@@ -40,7 +40,7 @@ Grocery Store Management project (Advanced)/
 
 ## Implementation Versions
 
-### 1. Simple Implementation (`exercise.py`) (Removed)
+### ~1. Simple Implementation (`exercise.py`)~ (Removed)
 
 A basic, easy-to-understand billing system ideal for learning the fundamentals.
 
