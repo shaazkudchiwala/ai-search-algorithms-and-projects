@@ -17,8 +17,7 @@ ai-search-algorithms-and-projects/
 │   ├── Grocery Store Management project (Advanced)/
 │   ├── TicTacToe project/
 │   ├── Solving 8 Puzzle Problem/
-│   └── README.md
-├── 1AI_Lab_Mannual/               # Lab exercises and practice
+│   └── README.md               
 ├── LICENSE                         # MIT License
 └── README.md                       # This file
 ```
