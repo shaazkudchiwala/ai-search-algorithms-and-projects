@@ -42,90 +42,6 @@ Grocery Store Management project (Advanced)/
 
 ### 1. Simple Implementation ~(`exercise.py`)~ (Removed)
 
-A basic, easy-to-understand billing system ideal for learning the fundamentals.
-
-#### Key Components
-
-**Global State:**
-```python
-grocery_items = {
-    'apple': 2.99,
-    'banana': 1.49,
-    'milk': 3.99,
-    'bread': 2.49,
-}
-bill = {}  # Global dictionary tracking cart items
-```
-
-**Functions:**
-
-**`display_items()`**
-- Displays all available items and their prices
-- Output format: "item_name: $price"
-- Called at application start
-
-**`create_bill()`**
-- Interactive loop to add items to cart
-- User enters item name and quantity
-- Validates item existence in catalog
-- Calculates total cost per item: `cost = price × quantity`
-- Stores in bill dictionary: `{item: {quantity, cost}}`
-- Continues until user enters 'q' to quit
-- Uses `tabulate` for formatted output
-
-**`sort_bill()`**
-- Sorts bill items alphabetically by item name
-- Displays sorted bill in table format
-- Columns: Item, Quantity, Unit Price, Total Cost
-- Uses lambda function: `lambda x: x[0]` to sort by item name
-
-#### Workflow
-
-```
-1. display_items()
-2. create_bill()
-   - Loop: add items with quantities
-   - Calculate running total
-3. sort_bill()
-   - Display bill sorted by name
-```
-
-#### Example Session
-
-**Catalog:**
-```
-apple: $2.99
-banana: $1.49
-milk: $3.99
-bread: $2.49
-```
-
-**User Interaction:**
-```
-Enter item name: apple
-Enter quantity: 3
-[apple added: 3 × $2.99 = $8.97]
-
-Enter item name: milk
-Enter quantity: 2
-[milk added: 2 × $3.99 = $7.98]
-
-Enter item name: q
-[exit loop]
-```
-
-**Output Bill (Sorted Alphabetically):**
-```
-┌───────┬──────────┬────────────┬─────────────┐
-│ Item  │ Quantity │ Unit Price │ Total Cost  │
-├───────┼──────────┼────────────┼─────────────┤
-│ apple │ 3        │ $2.99      │ $8.97       │
-│ milk  │ 2        │ $3.99      │ $7.98       │
-└───────┴──────────┴────────────┴─────────────┘
-
-Total cost: $16.95
-```
-
 #### Limitations
 
 - Fixed product catalog (hardcoded)
@@ -137,7 +53,7 @@ Total cost: $16.95
 
 ---
 
-## 2. Advanced Implementation (`src/grocery_intermediate.py`)
+### 2. Advanced Implementation (`src/grocery_intermediate.py`)
 
 A production-ready system with professional features for real-world grocery store operations.
 
