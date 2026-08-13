@@ -21,8 +21,6 @@ Complete implementations of the classic TicTacToe (Noughts and Crosses) game in 
 
 ```
 TicTacToe project/
-├── 0_matrix.py                    # Tutorial: 2D array creation
-├── 1_solved_example.py            # (reference material)
 ├── 2_TTT_2Player_#1.py            # 2-Player game implementation
 ├── 3_TTT_HumanVsAI_#1.py          # Human vs AI with Minimax
 └── README.md                      # This file
