@@ -121,7 +121,6 @@ Practical applications demonstrating AI concepts in realistic scenarios: attenda
 **Purpose:** Automated student attendance tracking system with course management and performance analysis.
 
 **Files:**
-- `exercise.py` — Complete working implementation (~60 lines)
   - `Student` class for individual tracking
   - `AttendanceTracker` class for system management
   - Full session/attendance calculation and grouping logic
@@ -174,13 +173,7 @@ Group 4 (<60%):
 **Purpose:** Comprehensive point-of-sale and inventory management system with multi-format data support and transaction history.
 
 **Implementations:**
-1. **Simple Version** (`exercise.py`) — ~70 lines
-   - Hardcoded product catalog
-   - Interactive checkout workflow
-   - Alphabetical bill sorting
-   - Uses `tabulate` for formatted output
-   
-2. **Advanced Version** (`src/grocery_intermediate.py`) — ~300 lines
+**Advanced Version** (`src/grocery_intermediate.py`) — ~300 lines
    - Production-ready system
    - Multi-format catalog support (JSON/CSV)
    - SQLite database for transaction persistence
@@ -189,7 +182,6 @@ Group 4 (<60%):
    - Comprehensive error handling
 
 **Files:**
-- `exercise.py` — Simple implementation (learning-focused)
 - `README.md` — Complete project documentation
 - `src/` — Source modules and data
   - `grocery_intermediate.py` — Advanced implementation
@@ -481,17 +473,6 @@ Solution Depth: Typically 4-20 moves depending on puzzle difficulty
 
 **For detailed algorithm analysis: See [ai-search-algorithms/3_Advanced_Algorithms/Solving 8 Puzzle Problem/README.md](ai-search-algorithms/3_Advanced_Algorithms/Solving%208%20Puzzle%20Problem/README.md)**
 
-### 3. Lab Manual and Exercises (`1AI_Lab_Mannual/`)
-
-Supporting materials for learning and practice.
-
-**Files:**
-- `1AI lab mannual.pdf` — Lab manual documentation (PDF)
-- `1practice.py` — Practice exercises
-- `creating_folders_final.py` — Utility for directory setup
-
-**Purpose:** Supplementary learning materials accompanying the main implementations.
-
 ## Technology Stack
 
 - **Language:** Python 3.6+
@@ -588,10 +569,10 @@ python 3_GBFS_#1.py    # Output: ~20 nodes, 4 moves
 Run practical applications:
 ```bash
 cd ai-projects/Attendance\ System\ project
-python exercise.py
+python <name_of_file>.py
 
 cd ../Grocery\ Store\ Management\ project\ \(Advanced\)
-python exercise.py
+python <name_of_file>.py
 
 cd ../TicTacToe\ project
 python 3_TTT_HumanVsAI_#1.py
@@ -601,8 +582,7 @@ python 3_TTT_HumanVsAI_#1.py
 
 Each project folder contains:
 - Multiple implementation approaches
-- Solved examples with explanations
-- Practice exercises with variations
+- Practice with variations
 - Visual aids (flowcharts, diagrams)
 
 ## Key Insights and Learning Outcomes
